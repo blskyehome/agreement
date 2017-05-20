@@ -12,7 +12,7 @@ $h3='目录链接';
         <div class="toplinebl col-md-10 menu">
             <ol>
                 <h4><li><a href="agreement.html">结对编程协议</a></li></h4>
-                <h4><li><a href="demand.html">需求分析</a></li></h4>
+                <h4><li><a href="demand.php">需求分析</a></li></h4>
 
             </ol>
         </div>
