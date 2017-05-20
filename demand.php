@@ -89,7 +89,7 @@ $h3='版本号v0.1';
                     <ol type="A">
                         <li><h5>语言</h5>
                         <p>html css js PHP Java etc.</p></li>
-                        <li><h5>框架(或类库)</h5><p>jQuery Bootstrap ThinkPHP Amaze UI etc.</p></li>
+                        <li><h5>框架(或类库)</h5><p>jQuery Bootstrap ThinkPHP Amaze UI electron etc.</p></li>
                     </ol>
                 </li>
             </ol>
@@ -99,11 +99,36 @@ $h3='版本号v0.1';
             <ol class="qualifications">
                 <li>
                     <h4>流程图（画出系统的整体流程图）</h4>
-                    <p>数据分为静态数据和动态数据。所谓静态数据，指在运行过程中主要作为参考的数据，它们在很长一段时间内不会变化，一般也不会随着运行而改变，所谓动态数据，包括所有在运行中要发生变化的数据，以及在运行中要输入、输出的数据。</p>
+                    <img style="width: 100%" src="images/flow.png" alt="">
                 </li>
                 <li>
                     <h4>数据库架构</h4>
                     <p></p></li>
+                <li>
+                    <h4>功能详细</h4>
+                    <ol type="A">
+                        <li>
+                            <h5>用户中心</h5>
+                            <ol type="a"><li>头像管理</li>
+                            <li>昵称修改</li>
+                            <li>密码修改</li>
+                            <li>更改邮箱</li>
+                            <li>个性签名</li>
+                                <li>粉丝/关注</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <h5>"热恋"热链</h5>
+                            <ol type="a">
+                                <li>用户链接增删</li>
+                                <li>通过谷歌扩展插件实现一键添加链接</li>
+                                <li>链接分类管理</li>
+                                <li>链接公开度管理</li>
+                                <li>链接访问量统计</li>
+                                <li class="gray">链接点赞功能</li>
+                            </ol>
+                        </li>
+                    </ol></li>
             </ol>
         </div>
         <div class="col-md-1"></div>

@@ -113,6 +113,9 @@ and (max-width : 480px)
 .menu{
     min-height: 40em;
 }
+.gray{
+    color: gray;
+}
 /* Viewing Outlines 
 .row, .col-sm-12 {border: 1px solid black}
 .col{border: 1px solid blue}
