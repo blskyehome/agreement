@@ -1,0 +1,118 @@
+body {
+	background: #FFF url(http://www.drakenhart-studios.net/resume/bg-main.png) repeat;
+}
+
+/* Design Styles */
+.row {backgroud-color: #fff;}
+.bottomlinebl {border-bottom: solid #6CF 1px;}
+.toplinebl {border-top: solid #6CF 1px;}
+
+.logo {
+  padding: 20px;
+  max-height: 60%;
+}
+.goal {
+  padding-left:2em;
+  padding-bottom: 2em;
+}
+.qualifications, .experience, .bottom-space {
+  padding-bottom:2em;
+}
+
+ul.experience > li {
+
+  list-style-type:none;
+}
+ul.experience ul {
+  list-style:disc;
+  padding-left:2em;
+  padding-bottom: 1em;
+}
+ul.experience > li span {
+    	text-decoration:underline;
+}
+#skills li, .qualifications li {
+  padding-bottom:0.3em;
+}
+.top-gap {
+  margin-top:1em;
+}
+.bottom-gap {
+  padding-bottom:0.5em;
+}
+/*Typography*/
+h1 {
+  font: Cambria, Georgia, Palatino, Times New Roman, serif;
+  letter-spacing:0.05em;
+}
+h2 {
+	font: Cambria, Georgia, Palatino, Times New Roman, serif;
+	letter-spacing:0.05em;
+}
+h3 {
+	font: Cambria, Georgia, Palatino, Times New Roman, serif;
+	color: #234d80;
+	letter-spacing:0.05em;
+}
+h3.sidebar {
+	color: #4f81bd;
+}
+h4 {
+	font: "Calibri", "Open Sans", Arial, Helvetica, sans-serif;
+  font-style:italic;
+}
+
+.body, ul {
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+/*Media Queries*/
+@media only screen 
+and (max-width : 480px)
+  {
+.xs-hidden-logo {
+  display: none !important;
+  visibility: hidden !important;
+        }
+  .qualifications, .goal, .experience {
+    padding-left:1.5em;
+  }
+    address a {
+      padding-bottom:2em;
+    }
+  }
+
+.pd2em{
+    padding: 2em;
+}
+.pd1em{
+    padding: 1em;
+}
+.pd4em{
+    padding: 4em;
+}
+.mg2em{
+    margin: 2em;
+}
+.important{
+    padding: 0 0.5em;
+    color: red;
+}
+.indent{
+    text-align: justify; text-justify: inter-ideograph; text-indent: 2em;
+}
+.header{
+    height: 4rem;
+}
+.header img{
+    height: 8rem;
+}
+.menu a{
+    color: #9c9c9c;
+}
+.menu{
+    min-height: 40em;
+}
+/* Viewing Outlines 
+.row, .col-sm-12 {border: 1px solid black}
+.col{border: 1px solid blue}
